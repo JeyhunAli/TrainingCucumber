@@ -16,12 +16,18 @@ import cucumber.api.junit.Cucumber;
 				"junit:target/JUnitReports",
 				"json:target/JSONReports"},
 		dryRun = false, //to check the mapping is proper between feature file and step def file
-		tags = "@SmokeTest"  //its for runner understand what scenario or what feature to run 
+		//tags = "@SmokeTest1"  //its for runner understand what scenario or what feature to run 
 		//tags = {"~@SmokeTest" , "~@RegressionTest", "~@End2End"}	
-		
+		//tags = "@SmokeTest2"
+	    tags = "@SmokeTest3"
 		)
 
 
 public class MyRunner  {
 
 }
+
+
+
+//regular expression for passing username and pasword   When ("^user enters(.*) and (.*)$")
+// and pass String usernmae and password paramaters

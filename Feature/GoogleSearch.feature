@@ -1,6 +1,6 @@
 Feature: Google Search
 
-  @SmokeTest
+  @SmokeTest1
   Scenario: google search box functionality
     Given user entered g00gle url
     And check google image is displayed or no

@@ -1,95 +1,323 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("GoogleSearch.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("hubspotLogin.feature");
 formatter.feature({
-  "line": 1,
-  "name": "Google Search",
+  "comments": [
+    {
+      "line": 1,
+      "value": "#Author: your.email@your.domain.com"
+    }
+  ],
+  "line": 2,
+  "name": "Hubspot Login",
   "description": "",
-  "id": "google-search",
+  "id": "hubspot-login",
   "keyword": "Feature"
 });
-formatter.scenario({
-  "line": 4,
-  "name": "google search box functionality",
+formatter.scenarioOutline({
+  "line": 5,
+  "name": "Hubspot login with diffrent credentials",
   "description": "",
-  "id": "google-search;google-search-box-functionality",
-  "type": "scenario",
-  "keyword": "Scenario",
+  "id": "hubspot-login;hubspot-login-with-diffrent-credentials",
+  "type": "scenario_outline",
+  "keyword": "Scenario Outline",
   "tags": [
     {
-      "line": 3,
-      "name": "@SmokeTest"
+      "line": 4,
+      "name": "@SmokeTest3"
     }
   ]
 });
 formatter.step({
-  "line": 5,
-  "name": "user entered g00gle url",
+  "line": 6,
+  "name": "I m entering hubspot url",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 6,
-  "name": "check google image is displayed or no",
-  "keyword": "And "
-});
-formatter.step({
   "line": 7,
-  "name": "enter to the search box I L0ve America",
-  "keyword": "Then "
+  "name": "verifying signUp link is there",
+  "keyword": "And "
 });
 formatter.step({
   "line": 8,
-  "name": "Click on the search button or hit enter",
-  "keyword": "And "
+  "name": "user enter \"\u003cusername\u003e\", and \"\u003cpassword\u003e\"",
+  "keyword": "When "
 });
 formatter.step({
   "line": 9,
-  "name": "verify you I Love America. That\u0027s Why I Have to Tell the Truth About It ... is in the page",
-  "keyword": "Then "
+  "name": "user click on the login button",
+  "keyword": "And "
 });
-formatter.match({
-  "arguments": [
+formatter.examples({
+  "line": 14,
+  "name": "",
+  "description": "",
+  "id": "hubspot-login;hubspot-login-with-diffrent-credentials;",
+  "rows": [
     {
-      "val": "00",
-      "offset": 14
+      "cells": [
+        "username",
+        "",
+        "password"
+      ],
+      "line": 15,
+      "id": "hubspot-login;hubspot-login-with-diffrent-credentials;;1"
+    },
+    {
+      "cells": [
+        "jeyhun",
+        "",
+        "success"
+      ],
+      "line": 16,
+      "id": "hubspot-login;hubspot-login-with-diffrent-credentials;;2"
+    },
+    {
+      "cells": [
+        "Emiliya",
+        "",
+        "pass"
+      ],
+      "line": 17,
+      "id": "hubspot-login;hubspot-login-with-diffrent-credentials;;3"
+    },
+    {
+      "cells": [
+        "Nastyush",
+        "",
+        "gelmishdun",
+        ""
+      ],
+      "line": 18,
+      "id": "hubspot-login;hubspot-login-with-diffrent-credentials;;4"
     }
   ],
-  "location": "GoogleSearch.user_entered_g_gle_url(int)"
+  "keyword": "Examples"
+});
+formatter.scenario({
+  "line": 16,
+  "name": "Hubspot login with diffrent credentials",
+  "description": "",
+  "id": "hubspot-login;hubspot-login-with-diffrent-credentials;;2",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 4,
+      "name": "@SmokeTest3"
+    }
+  ]
+});
+formatter.step({
+  "line": 6,
+  "name": "I m entering hubspot url",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 7,
+  "name": "verifying signUp link is there",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 8,
+  "name": "user enter \"jeyhun\", and \"success\"",
+  "matchedColumns": [
+    0,
+    2
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 9,
+  "name": "user click on the login button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "HubspotLogin.i_m_entering_hubspot_url()"
 });
 formatter.result({
-  "duration": 2966473323,
+  "duration": 7877074780,
   "status": "passed"
 });
 formatter.match({
-  "location": "GoogleSearch.check_google_image_is_displayed_or_no()"
+  "location": "HubspotLogin.verifying_signUp_link_is_there()"
 });
 formatter.result({
-  "duration": 42540118,
+  "duration": 45736194,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "0",
+      "val": "jeyhun",
+      "offset": 12
+    },
+    {
+      "val": "success",
+      "offset": 26
+    }
+  ],
+  "location": "HubspotLogin.user_enter_and(String,String)"
+});
+formatter.result({
+  "duration": 210728977,
+  "status": "passed"
+});
+formatter.match({
+  "location": "HubspotLogin.user_click_on_the_login_button()"
+});
+formatter.result({
+  "duration": 100229947,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 17,
+  "name": "Hubspot login with diffrent credentials",
+  "description": "",
+  "id": "hubspot-login;hubspot-login-with-diffrent-credentials;;3",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 4,
+      "name": "@SmokeTest3"
+    }
+  ]
+});
+formatter.step({
+  "line": 6,
+  "name": "I m entering hubspot url",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 7,
+  "name": "verifying signUp link is there",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 8,
+  "name": "user enter \"Emiliya\", and \"pass\"",
+  "matchedColumns": [
+    0,
+    2
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 9,
+  "name": "user click on the login button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "HubspotLogin.i_m_entering_hubspot_url()"
+});
+formatter.result({
+  "duration": 6498780873,
+  "status": "passed"
+});
+formatter.match({
+  "location": "HubspotLogin.verifying_signUp_link_is_there()"
+});
+formatter.result({
+  "duration": 29599896,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Emiliya",
+      "offset": 12
+    },
+    {
+      "val": "pass",
       "offset": 27
     }
   ],
-  "location": "GoogleSearch.enter_to_the_search_box_I_L_ve_America(int)"
+  "location": "HubspotLogin.user_enter_and(String,String)"
 });
 formatter.result({
-  "duration": 3170667460,
+  "duration": 154602915,
   "status": "passed"
 });
 formatter.match({
-  "location": "GoogleSearch.click_on_the_search_button_or_hit_enter()"
+  "location": "HubspotLogin.user_click_on_the_login_button()"
 });
 formatter.result({
-  "duration": 13902,
+  "duration": 95579185,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 18,
+  "name": "Hubspot login with diffrent credentials",
+  "description": "",
+  "id": "hubspot-login;hubspot-login-with-diffrent-credentials;;4",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 4,
+      "name": "@SmokeTest3"
+    }
+  ]
+});
+formatter.step({
+  "line": 6,
+  "name": "I m entering hubspot url",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 7,
+  "name": "verifying signUp link is there",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 8,
+  "name": "user enter \"Nastyush\", and \"gelmishdun\"",
+  "matchedColumns": [
+    0,
+    2
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 9,
+  "name": "user click on the login button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "HubspotLogin.i_m_entering_hubspot_url()"
+});
+formatter.result({
+  "duration": 6673022962,
   "status": "passed"
 });
 formatter.match({
-  "location": "GoogleSearch.verify_you_I_Love_America_That_s_Why_I_Have_to_Tell_the_Truth_About_It_is_in_the_page()"
+  "location": "HubspotLogin.verifying_signUp_link_is_there()"
 });
 formatter.result({
-  "duration": 22281223,
+  "duration": 28376959,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Nastyush",
+      "offset": 12
+    },
+    {
+      "val": "gelmishdun",
+      "offset": 28
+    }
+  ],
+  "location": "HubspotLogin.user_enter_and(String,String)"
+});
+formatter.result({
+  "duration": 190791583,
+  "status": "passed"
+});
+formatter.match({
+  "location": "HubspotLogin.user_click_on_the_login_button()"
+});
+formatter.result({
+  "duration": 110424277,
   "status": "passed"
 });
 });

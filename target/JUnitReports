@@ -1,11 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="6.201976">
-<testcase classname="Google Search" name="google search box functionality" time="6.201976">
-<system-out><![CDATA[Given user entered g00gle url...............................................passed
-And check google image is displayed or no...................................passed
-Then enter to the search box I L0ve America.................................passed
-And Click on the search button or hit enter.................................passed
-Then verify you I Love America. That's Why I Have to Tell the Truth About It ... is in the page.passed
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="22.014949">
+<testcase classname="Hubspot Login" name="Hubspot login with diffrent credentials" time="8.23377">
+<system-out><![CDATA[Given I m entering hubspot url..............................................passed
+And verifying signUp link is there..........................................passed
+When user enter "jeyhun", and "success".....................................passed
+And user click on the login button..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Hubspot Login" name="Hubspot login with diffrent credentials 2" time="6.778563">
+<system-out><![CDATA[Given I m entering hubspot url..............................................passed
+And verifying signUp link is there..........................................passed
+When user enter "Emiliya", and "pass".......................................passed
+And user click on the login button..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Hubspot Login" name="Hubspot login with diffrent credentials 3" time="7.002616">
+<system-out><![CDATA[Given I m entering hubspot url..............................................passed
+And verifying signUp link is there..........................................passed
+When user enter "Nastyush", and "gelmishdun"................................passed
+And user click on the login button..........................................passed
 ]]></system-out>
 </testcase>
 </testsuite>
