@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="6.201976">
+<testcase classname="Google Search" name="google search box functionality" time="6.201976">
+<system-out><![CDATA[Given user entered g00gle url...............................................passed
+And check google image is displayed or no...................................passed
+Then enter to the search box I L0ve America.................................passed
+And Click on the search button or hit enter.................................passed
+Then verify you I Love America. That's Why I Have to Tell the Truth About It ... is in the page.passed
+]]></system-out>
+</testcase>
+</testsuite>

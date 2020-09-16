@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="2.314419">
+<testcase classname="the-internet.herokuapp.com;" name="main page functionlaity;" time="2.314419">
+<failure message="java.lang.NullPointerException&#10;&#9;at stepDefinition.herokuuAppStepDef.user_navigated_to_herokuu_app(herokuuAppStepDef.java:28)&#10;&#9;at ✽.Given user navigated to herokuu app;(herokuuApp.feature:5)&#10;"><![CDATA[Given user navigated to herokuu app;........................................failed
+When user on main page check Title;.........................................skipped
+Then user clicks on A/B Testing.............................................skipped
+And user on A/B Testing page................................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at stepDefinition.herokuuAppStepDef.user_navigated_to_herokuu_app(herokuuAppStepDef.java:28)
+	at ✽.Given user navigated to herokuu app;(herokuuApp.feature:5)
+]]></failure>
+</testcase>
+</testsuite>
