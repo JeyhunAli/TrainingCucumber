@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="26.79" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/jey/eclipse-workspace/TraningCucumber/target/test-classes:/Users/jey/eclipse-workspace/TraningCucumber/target/classes:/Users/jey/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/jey/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/jey/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/jey/.m2/repository/io/github/bonigarcia/webdrivermanager/3.8.1/webdrivermanager-3.8.1.jar:/Users/jey/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/jey/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/jey/.m2/repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar:/Users/jey/.m2/repository/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar:/Users/jey/.m2/repository/org/apache/httpcomponents/httpclient/4.5.6/httpclient-4.5.6.jar:/Users/jey/.m2/repository/org/rauschig/jarchivelib/1.0.0/jarchivelib-1.0.0.jar:/Users/jey/.m2/repository/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar:/Users/jey/.m2/repository/org/jsoup/jsoup/1.11.3/jsoup-1.11.3.jar:/Users/jey/.m2/repository/org/seleniumhq/selenium/selenium-java/3.11.0/selenium-java-3.11.0.jar:/Users/jey/.m2/repository/org/seleniumhq/selenium/selenium-api/3.11.0/selenium-api-3.11.0.jar:/Users/jey/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.11.0/selenium-chrome-driver-3.11.0.jar:/Users/jey/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.11.0/selenium-edge-driver-3.11.0.jar:/Users/jey/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.11.0/selenium-firefox-driver-3.11.0.jar:/Users/jey/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.11.0/selenium-ie-driver-3.11.0.jar:/Users/jey/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.11.0/selenium-opera-driver-3.11.0.jar:/Users/jey/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.11.0/selenium-remote-driver-3.11.0.jar:/Users/jey/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.11.0/selenium-safari-driver-3.11.0.jar:/Users/jey/.m2/repository/org/seleniumhq/selenium/selenium-support/3.11.0/selenium-support-3.11.0.jar:/Users/jey/.m2/repository/net/bytebuddy/byte-buddy/1.7.9/byte-buddy-1.7.9.jar:/Users/jey/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/jey/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/jey/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/jey/.m2/repository/com/google/guava/guava/23.6-jre/guava-23.6-jre.jar:/Users/jey/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/jey/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/jey/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/jey/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/jey/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/jey/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/jey/.m2/repository/com/squareup/okhttp3/okhttp/3.9.1/okhttp-3.9.1.jar:/Users/jey/.m2/repository/com/squareup/okio/okio/1.13.0/okio-1.13.0.jar:/Users/jey/.m2/repository/info/cukes/cucumber-java/1.2.5/cucumber-java-1.2.5.jar:/Users/jey/.m2/repository/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar:/Users/jey/.m2/repository/info/cukes/cucumber-html/0.2.3/cucumber-html-0.2.3.jar:/Users/jey/.m2/repository/info/cukes/gherkin/2.12.2/gherkin-2.12.2.jar:/Users/jey/.m2/repository/info/cukes/cucumber-jvm-deps/1.0.5/cucumber-jvm-deps-1.0.5.jar:/Users/jey/.m2/repository/info/cukes/cucumber-testng/1.2.5/cucumber-testng-1.2.5.jar:/Users/jey/.m2/repository/net/masterthought/cucumber-reporting/3.8.0/cucumber-reporting-3.8.0.jar:/Users/jey/.m2/repository/org/apache/logging/log4j/log4j-api/2.6/log4j-api-2.6.jar:/Users/jey/.m2/repository/org/apache/logging/log4j/log4j-core/2.6/log4j-core-2.6.jar:/Users/jey/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.8.5/jackson-databind-2.8.5.jar:/Users/jey/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.8.0/jackson-annotations-2.8.0.jar:/Users/jey/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.8.5/jackson-core-2.8.5.jar:/Users/jey/.m2/repository/org/apache/velocity/velocity/1.7/velocity-1.7.jar:/Users/jey/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/Users/jey/.m2/repository/commons-lang/commons-lang/2.4/commons-lang-2.4.jar:/Users/jey/.m2/repository/velocity-tools/velocity-tools/1.4/velocity-tools-1.4.jar:/Users/jey/.m2/repository/joda-time/joda-time/2.9.6/joda-time-2.9.6.jar:/Users/jey/.m2/repository/net/lingala/zip4j/zip4j/1.3.2/zip4j-1.3.2.jar:/Users/jey/.m2/repository/org/codehaus/plexus/plexus-utils/3.0.24/plexus-utils-3.0.24.jar:/Users/jey/.m2/repository/com/googlecode/owasp-java-html-sanitizer/owasp-java-html-sanitizer/20160924.1/owasp-java-html-sanitizer-20160924.1.jar:/Users/jey/.m2/repository/org/apache/maven/surefire/surefire-testng-utils/2.21.0/surefire-testng-utils-2.21.0.jar:/Users/jey/.m2/repository/org/apache/maven/surefire/surefire-grouper/2.21.0/surefire-grouper-2.21.0.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib"/>
+    <property name="sun.java.command" value="/Users/jey/eclipse-workspace/TraningCucumber/target/surefire/surefirebooter2625240747199405580.jar /Users/jey/eclipse-workspace/TraningCucumber/target/surefire 2020-09-30T12-01-13_421-jvmRun1 surefire3234132691601599446tmp surefire_0392463397477508635tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="surefire.test.class.path" value="/Users/jey/eclipse-workspace/TraningCucumber/target/test-classes:/Users/jey/eclipse-workspace/TraningCucumber/target/classes:/Users/jey/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/jey/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/jey/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/jey/.m2/repository/io/github/bonigarcia/webdrivermanager/3.8.1/webdrivermanager-3.8.1.jar:/Users/jey/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/jey/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/jey/.m2/repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar:/Users/jey/.m2/repository/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar:/Users/jey/.m2/repository/org/apache/httpcomponents/httpclient/4.5.6/httpclient-4.5.6.jar:/Users/jey/.m2/repository/org/rauschig/jarchivelib/1.0.0/jarchivelib-1.0.0.jar:/Users/jey/.m2/repository/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar:/Users/jey/.m2/repository/org/jsoup/jsoup/1.11.3/jsoup-1.11.3.jar:/Users/jey/.m2/repository/org/seleniumhq/selenium/selenium-java/3.11.0/selenium-java-3.11.0.jar:/Users/jey/.m2/repository/org/seleniumhq/selenium/selenium-api/3.11.0/selenium-api-3.11.0.jar:/Users/jey/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.11.0/selenium-chrome-driver-3.11.0.jar:/Users/jey/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.11.0/selenium-edge-driver-3.11.0.jar:/Users/jey/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.11.0/selenium-firefox-driver-3.11.0.jar:/Users/jey/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.11.0/selenium-ie-driver-3.11.0.jar:/Users/jey/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.11.0/selenium-opera-driver-3.11.0.jar:/Users/jey/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.11.0/selenium-remote-driver-3.11.0.jar:/Users/jey/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.11.0/selenium-safari-driver-3.11.0.jar:/Users/jey/.m2/repository/org/seleniumhq/selenium/selenium-support/3.11.0/selenium-support-3.11.0.jar:/Users/jey/.m2/repository/net/bytebuddy/byte-buddy/1.7.9/byte-buddy-1.7.9.jar:/Users/jey/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/jey/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/jey/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/jey/.m2/repository/com/google/guava/guava/23.6-jre/guava-23.6-jre.jar:/Users/jey/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/jey/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/jey/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/jey/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/jey/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/jey/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/jey/.m2/repository/com/squareup/okhttp3/okhttp/3.9.1/okhttp-3.9.1.jar:/Users/jey/.m2/repository/com/squareup/okio/okio/1.13.0/okio-1.13.0.jar:/Users/jey/.m2/repository/info/cukes/cucumber-java/1.2.5/cucumber-java-1.2.5.jar:/Users/jey/.m2/repository/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar:/Users/jey/.m2/repository/info/cukes/cucumber-html/0.2.3/cucumber-html-0.2.3.jar:/Users/jey/.m2/repository/info/cukes/gherkin/2.12.2/gherkin-2.12.2.jar:/Users/jey/.m2/repository/info/cukes/cucumber-jvm-deps/1.0.5/cucumber-jvm-deps-1.0.5.jar:/Users/jey/.m2/repository/info/cukes/cucumber-testng/1.2.5/cucumber-testng-1.2.5.jar:/Users/jey/.m2/repository/net/masterthought/cucumber-reporting/3.8.0/cucumber-reporting-3.8.0.jar:/Users/jey/.m2/repository/org/apache/logging/log4j/log4j-api/2.6/log4j-api-2.6.jar:/Users/jey/.m2/repository/org/apache/logging/log4j/log4j-core/2.6/log4j-core-2.6.jar:/Users/jey/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.8.5/jackson-databind-2.8.5.jar:/Users/jey/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.8.0/jackson-annotations-2.8.0.jar:/Users/jey/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.8.5/jackson-core-2.8.5.jar:/Users/jey/.m2/repository/org/apache/velocity/velocity/1.7/velocity-1.7.jar:/Users/jey/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/Users/jey/.m2/repository/commons-lang/commons-lang/2.4/commons-lang-2.4.jar:/Users/jey/.m2/repository/velocity-tools/velocity-tools/1.4/velocity-tools-1.4.jar:/Users/jey/.m2/repository/joda-time/joda-time/2.9.6/joda-time-2.9.6.jar:/Users/jey/.m2/repository/net/lingala/zip4j/zip4j/1.3.2/zip4j-1.3.2.jar:/Users/jey/.m2/repository/org/codehaus/plexus/plexus-utils/3.0.24/plexus-utils-3.0.24.jar:/Users/jey/.m2/repository/com/googlecode/owasp-java-html-sanitizer/owasp-java-html-sanitizer/20160924.1/owasp-java-html-sanitizer-20160924.1.jar:/Users/jey/.m2/repository/org/apache/maven/surefire/surefire-testng-utils/2.21.0/surefire-testng-utils-2.21.0.jar:/Users/jey/.m2/repository/org/apache/maven/surefire/surefire-grouper/2.21.0/surefire-grouper-2.21.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/jey"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre"/>
+    <property name="basedir" value="/Users/jey/eclipse-workspace/TraningCucumber"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/jey/eclipse-workspace/TraningCucumber/target/surefire/surefirebooter2625240747199405580.jar"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="1.8.0_231-b11"/>
+    <property name="user.name" value="jey"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.15.7"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/jey/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/p0/h72mllqx00q4913mr83cbfd00000gn/T/"/>
+    <property name="java.version" value="1.8.0_231"/>
+    <property name="user.dir" value="/Users/jey/eclipse-workspace/TraningCucumber"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/jey/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.231-b11"/>
+    <property name="java.ext.dirs" value="/Users/jey/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="feature" classname="Runner.MyRunner2" time="26.425">
+    <failure message="org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to contain &quot;HubSpot Login&quot;. Current title: &quot;&quot; (tried for 6 second(s) with 500 milliseconds interval)" type="cucumber.runtime.CucumberException">cucumber.runtime.CucumberException: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to contain "HubSpot Login". Current title: "" (tried for 6 second(s) with 500 milliseconds interval)
+	at Runner.MyRunner2.feature(MyRunner2.java:36)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to contain "HubSpot Login". Current title: "" (tried for 6 second(s) with 500 milliseconds interval)
+Caused by: org.openqa.selenium.NoSuchWindowException: 
+no such window: window was already closed
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'Jeys-MBP.home', ip: 'fe80:0:0:0:1c29:c4d0:c7dc:5413%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/p0/h72mllqx00q...}, goog:chromeOptions: {debuggerAddress: localhost:62797}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a38937bfb7949f5382caec16ebb70a61
+	at Runner.MyRunner2.feature(MyRunner2.java:36)
+</failure>
+    <system-out><![CDATA[#Author:
+Feature: Hubspot Login
+
+  @SmokeTest3
+  Scenario Outline: Hubspot login with diffrent credentials &amp#27;[90m# hubspotLogin.feature:5&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36mI m entering hubspot url&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mverifying signUp link is there&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36muser enter "<username>", and "<password>"&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser click on the login button&amp#27;[0m
+
+    Examples: 
+title is :HubSpot Login
+locator is: By.xpath: //i18n-string[contains(text(),'Sign up')]
+WebElement created successfully: By.xpath: //i18n-string[contains(text(),'Sign up')]
+[[ChromeDriver: chrome on MAC (19b5327e148712b130bbfc3eac1ee773)] -> xpath: //i18n-string[contains(text(),'Sign up')]] element is displayed
+is element diplayed --- >true
+locator is: By.id: username
+WebElement created successfully: By.id: username
+locator is: By.id: password
+WebElement created successfully: By.id: password
+locator is: By.id: loginBtn
+WebElement created successfully: By.id: loginBtn
+
+  @SmokeTest3
+  Scenario Outline: Hubspot login with diffrent credentials &amp#27;[90m# hubspotLogin.feature:13&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI m entering hubspot url&amp#27;[0m                          &amp#27;[90m# HubspotLogin.i_m_entering_hubspot_url()&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mverifying signUp link is there&amp#27;[0m                      &amp#27;[90m# HubspotLogin.verifying_signUp_link_is_there()&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enter "&amp#27;[0m&amp#27;[32m&amp#27;[1mjeyhun&amp#27;[0m&amp#27;[32m", and "&amp#27;[0m&amp#27;[32m&amp#27;[1msuccess&amp#27;[0m&amp#27;[32m"&amp#27;[0m                 &amp#27;[90m# HubspotLogin.user_enter_and(String,String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser click on the login button&amp#27;[0m                      &amp#27;[90m# HubspotLogin.user_click_on_the_login_button()&amp#27;[0m
+title is :HubSpot Login
+locator is: By.xpath: //i18n-string[contains(text(),'Sign up')]
+WebElement created successfully: By.xpath: //i18n-string[contains(text(),'Sign up')]
+[[ChromeDriver: chrome on MAC (fd7be027dfb939e393d510f78ff4831d)] -> xpath: //i18n-string[contains(text(),'Sign up')]] element is displayed
+is element diplayed --- >true
+locator is: By.id: username
+WebElement created successfully: By.id: username
+locator is: By.id: password
+WebElement created successfully: By.id: password
+locator is: By.id: loginBtn
+WebElement created successfully: By.id: loginBtn
+
+  @SmokeTest3
+  Scenario Outline: Hubspot login with diffrent credentials &amp#27;[90m# hubspotLogin.feature:14&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI m entering hubspot url&amp#27;[0m                          &amp#27;[90m# HubspotLogin.i_m_entering_hubspot_url()&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mverifying signUp link is there&amp#27;[0m                      &amp#27;[90m# HubspotLogin.verifying_signUp_link_is_there()&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enter "&amp#27;[0m&amp#27;[32m&amp#27;[1mEmiliya&amp#27;[0m&amp#27;[32m", and "&amp#27;[0m&amp#27;[32m&amp#27;[1mpass&amp#27;[0m&amp#27;[32m"&amp#27;[0m                   &amp#27;[90m# HubspotLogin.user_enter_and(String,String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser click on the login button&amp#27;[0m                      &amp#27;[90m# HubspotLogin.user_click_on_the_login_button()&amp#27;[0m
+
+  @SmokeTest3
+  Scenario Outline: Hubspot login with diffrent credentials &amp#27;[90m# hubspotLogin.feature:15&amp#27;[0m
+    &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mI m entering hubspot url&amp#27;[0m                          &amp#27;[90m# HubspotLogin.i_m_entering_hubspot_url()&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to contain "HubSpot Login". Current title: "" (tried for 6 second(s) with 500 milliseconds interval)
+      	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)
+      	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
+      	at Utilities.ElementUtility.waitForContainsTitleToBePresent(ElementUtility.java:421)
+      	at stepDefinition.HubspotLogin.i_m_entering_hubspot_url(HubspotLogin.java:27)
+      	at ✽.Given I m entering hubspot url(hubspotLogin.feature:6)
+      Caused by: org.openqa.selenium.NoSuchWindowException: no such window: window was already closed
+        (Session info: chrome=85.0.4183.121)
+      Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+      System info: host: 'Jeys-MBP.home', ip: 'fe80:0:0:0:1c29:c4d0:c7dc:5413%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_231'
+      Driver info: org.openqa.selenium.chrome.ChromeDriver
+      Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/p0/h72mllqx00q...}, goog:chromeOptions: {debuggerAddress: localhost:62797}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+      Session ID: a38937bfb7949f5382caec16ebb70a61
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+      	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+      	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+      	at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:277)
+      	at org.openqa.selenium.support.ui.ExpectedConditions$2.apply(ExpectedConditions.java:87)
+      	at org.openqa.selenium.support.ui.ExpectedConditions$2.apply(ExpectedConditions.java:82)
+      	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+      	at Utilities.ElementUtility.waitForContainsTitleToBePresent(ElementUtility.java:421)
+      	at stepDefinition.HubspotLogin.i_m_entering_hubspot_url(HubspotLogin.java:27)
+      	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+      	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+      	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+      	at java.lang.reflect.Method.invoke(Method.java:498)
+      	at cucumber.runtime.Utils$1.call(Utils.java:40)
+      	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+      	at cucumber.runtime.Utils.invoke(Utils.java:34)
+      	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)
+      	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+      	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+      	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+      	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+      	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+      	at cucumber.runtime.model.CucumberScenarioOutline.run(CucumberScenarioOutline.java:46)
+      	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+      	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+      	at Runner.MyRunner2.feature(MyRunner2.java:36)
+      	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+      	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+      	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+      	at java.lang.reflect.Method.invoke(Method.java:498)
+      	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+      	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+      	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+      	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+      	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+      	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+      	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+      	at org.testng.TestRunner.run(TestRunner.java:505)
+      	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+      	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+      	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+      	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+      	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+      	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+      	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+      	at java.lang.Thread.run(Thread.java:748)
+      &amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mverifying signUp link is there&amp#27;[0m                      &amp#27;[90m# HubspotLogin.verifying_signUp_link_is_there()&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36muser enter "&amp#27;[0m&amp#27;[36m&amp#27;[1mNastyush&amp#27;[0m&amp#27;[36m", and "&amp#27;[0m&amp#27;[36m&amp#27;[1mgelmishdun&amp#27;[0m&amp#27;[36m"&amp#27;[0m            &amp#27;[90m# HubspotLogin.user_enter_and(String,String)&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser click on the login button&amp#27;[0m                      &amp#27;[90m# HubspotLogin.user_click_on_the_login_button()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 44128
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 30, 2020 12:01:15 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 5153
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 30, 2020 12:01:22 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 33232
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 30, 2020 12:01:29 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>

@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 26.79 s <<< FAILURE! - in TestSuite
+feature(Runner.MyRunner2)  Time elapsed: 26.425 s  <<< FAILURE!
+cucumber.runtime.CucumberException: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to contain "HubSpot Login". Current title: "" (tried for 6 second(s) with 500 milliseconds interval)
+	at Runner.MyRunner2.feature(MyRunner2.java:36)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to contain "HubSpot Login". Current title: "" (tried for 6 second(s) with 500 milliseconds interval)
+Caused by: org.openqa.selenium.NoSuchWindowException: 
+no such window: window was already closed
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'Jeys-MBP.home', ip: 'fe80:0:0:0:1c29:c4d0:c7dc:5413%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/p0/h72mllqx00q...}, goog:chromeOptions: {debuggerAddress: localhost:62797}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a38937bfb7949f5382caec16ebb70a61
+	at Runner.MyRunner2.feature(MyRunner2.java:36)
+
